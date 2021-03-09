@@ -1,5 +1,7 @@
 var t = [1, 2, [3, [4, 5]], 6, [[[7]]], [8, [9]]];
 
+/*I was given a list of multiple elements, and had to create a function that takes all the elements from the list
+and prints '45'. This is how I solved it:*/
 function sum(list) {
   const arr = [];
   for (const element of list) {
@@ -17,5 +19,4 @@ function sum(list) {
 }
 
 sum(t);
-
 
